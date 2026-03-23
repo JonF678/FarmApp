@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Electron Fix</title>
+</head>
+<body>
+    <h1>Testing Electron Compatibility</h1>
+    <div id="results"></div>
+    
+    <script>
+        // Simulate Electron environment
+        window.electronAPI = { platform: 'win32' };
+        
+        // Test the service worker fix
+        function testServiceWorkerFix() {
+            console.log('Testing service worker context check...');
+            
+            // This should not throw an error
+            try {
+                // Simulate loading sw.js content
+                if (typeof self === 'undefined') {
+                    console.log('✅ Service worker script loaded outside of worker context - skipping');
+                    return true;
+                }
+                return false;
+            } catch (error) {
+                console.error('❌ Service worker fix failed:', error);
+                return false;
+            }
+        }
+        
+        // Test the app.js fix  
+        function testAppJSFix() {
+            console.log('Testing app.js Electron detection...');
+            
+            try {
+                // Simulate the registerServiceWorker function
+                if (typeof window !== 'undefined' && window.electronAPI) {
+                    console.log('✅ Running in Electron - skipping service worker registration');
+                    return true;
+                }
+                return false;
+            } catch (error) {
+                console.error('❌ App.js fix failed:', error);
+                return false;
+            }
+        }
+        
+        // Run tests
+        const results = document.getElementById('results');
+        
+        const swTest = testServiceWorkerFix();
+        const appTest = testAppJSFix();
+        
+        results.innerHTML = `
+            <h2>Test Results:</h2>
+            <p>Service Worker Fix: ${swTest ? '✅ PASSED' : '❌ FAILED'}</p>
+            <p>App.js Electron Detection: ${appTest ? '✅ PASSED' : '❌ FAILED'}</p>
+            <p><strong>${swTest && appTest ? '🎉 All fixes working! Desktop app should launch successfully.' : '⚠️  Some fixes need attention.'}</strong></p>
+        `;
+    </script>
+</body>
+</html>

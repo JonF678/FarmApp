@@ -1,0 +1,38 @@
+Starting Poultry Manager Desktop App...
+Platform: win32
+Electron version: 37.2.5   
+Initializing Poultry App...
+App initialization complete
+Electron app ready, creating main window...
+Loading URL: file://C:\Users\Administrator\Desktop\PoultryManagement2\index.html
+File exists: true
+PS C:\Users\Administrator\Desktop\PoultryManagement2> npx electron-builder --win --config electron-builder.json
+  • electron-builder  version=26.0.12 os=10.0.19045
+  • loaded configuration  file=C:\Users\Administrator\Desktop\PoultryManagement2\electron-builder.json
+  • writing effective config  file=dist\builder-effective-config.yaml
+  • installing production dependencies  pm=npm platform=win32 arch=x64 projectDir=C:\Users\Administrator\Desktop\PoultryManagement2 appDir=C:\Users\Administrator\Desktop\PoultryManagement2
+  • executing @electron/rebuild  electronVersion=37.2.5 arch=x64 buildFromSource=false appDir=./
+  • installing native dependencies  arch=x64
+  • completed installing native dependencies
+  • packaging       platform=win32 arch=x64 electron=37.2.5 appOutDir=dist\win-unpacked
+  • updating asar integrity executable resource  executablePath=dist\win-unpacked\Poultry Manager.exe
+  • default Electron icon is used  reason=application icon is not set
+  • signing with signtool.exe  path=dist\win-unpacked\Poultry Manager.exe
+  • executing @electron/rebuild  electronVersion=37.2.5 arch=ia32 buildFromSource=false appDir=./
+  • installing native dependencies  arch=ia32
+  • completed installing native dependencies
+  • packaging       platform=win32 arch=ia32 electron=37.2.5 appOutDir=dist\win-ia32-unpacked
+  • updating asar integrity executable resource  executablePath=dist\win-ia32-unpacked\Poultry Manager.exe
+  ⨯ cannot execute  cause=exit status 1
+                    errorOut=Fatal error: Unable to commit changes
+
+                    command='C:\Users\Administrator\AppData\Local\electron-builder\Cache\winCodeSign\winCodeSign-2.6.0\rcedit-x64.exe' 'C:\Users\Administrator\Desktop\PoultryManagement2\dist\win-ia32-unpacked\Poultry Manager.exe' --set-version-string FileDescription 'Poultry Manager' --set-version-string ProductName 'Poultry Manager' --set-version-string LegalCopyright 'Copyright © 2025 Poultry Manager' --set-file-version 1.0.0 --set-product-version 1.0.0.0 --set-version-string InternalName 'Poultry Manager' --set-version-string OriginalFilename ''
+                    workingDir=
+  • Above command failed, retrying 3 more times
+  • signing with signtool.exe  path=dist\win-ia32-unpacked\Poultry Manager.exe
+  • building        target=nsis file=dist\Poultry Manager Setup 1.0.0.exe archs=x64, ia32 oneClick=false perMachine=false
+  • signing with signtool.exe  path=dist\win-ia32-unpacked\resources\elevate.exe
+  • signing with signtool.exe  path=dist\win-unpacked\resources\elevate.exe
+  • signing with signtool.exe  path=dist\__uninstaller-nsis-workspace.exe
+  • signing with signtool.exe  path=dist\Poultry Manager Setup 1.0.0.exe
+  • building block map  blockMapFile=dist\Poultry Manager Setup 1.0.0.exe.blockmap

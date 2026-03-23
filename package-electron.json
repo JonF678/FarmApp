@@ -1,0 +1,30 @@
+{
+  "name": "poultry-manager-desktop",
+  "version": "1.0.0",
+  "description": "Poultry Management System Desktop Application",
+  "main": "electron/main.js",
+  "homepage": "./",
+  "scripts": {
+    "electron": "electron electron/main.js",
+    "electron-debug": "electron electron/debug-main.js",
+    "build": "electron-builder --config electron-builder.json",
+    "build:win": "electron-builder --win --config electron-builder.json",
+    "build:mac": "electron-builder --mac --config electron-builder.json",
+    "build:linux": "electron-builder --linux --config electron-builder.json",
+    "test": "electron test-minimal.js"
+  },
+  "keywords": ["poultry", "management", "desktop", "electron"],
+  "author": "Poultry Manager",
+  "license": "ISC",
+  "dependencies": {
+    "@types/memoizee": "^0.4.12",
+    "concurrently": "^9.2.0",
+    "memoizee": "^0.4.17",
+    "openid-client": "^6.6.2"
+  },
+  "devDependencies": {
+    "electron": "^37.2.5",
+    "electron-builder": "^26.0.12",
+    "wait-on": "^7.2.0"
+  }
+}

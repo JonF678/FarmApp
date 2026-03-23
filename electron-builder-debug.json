@@ -1,0 +1,24 @@
+{
+  "appId": "com.poultrymanager.debug",
+  "productName": "Poultry Manager Debug",
+  "electronVersion": "37.2.5",
+  "main": "electron/debug-main.js",
+  "directories": {
+    "output": "dist-debug"
+  },
+  "files": [
+    "electron/debug-main.js",
+    "index.html",
+    "css/**/*",
+    "js/**/*",
+    "manifest.json"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ]
+  }
+}

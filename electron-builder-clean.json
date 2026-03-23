@@ -1,0 +1,30 @@
+{
+  "appId": "com.poultrymanager.app",
+  "productName": "Poultry Manager",
+  "electronVersion": "37.2.5",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "electron/**/*",
+    "index.html",
+    "css/**/*",
+    "js/**/*",
+    "manifest.json",
+    "sw.js"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ]
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true
+  }
+}
