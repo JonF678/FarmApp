@@ -43,7 +43,7 @@ class Auth {
                     <div class="login-card">
                         <div class="login-header">
                             <i class="fas fa-egg login-icon"></i>
-                            <h2>Poultry Management System</h2>
+                            <h2>FarmApp</h2>
                             <p class="text-muted">Enter admin password to continue</p>
                         </div>
                         <form id="loginForm" class="login-form">

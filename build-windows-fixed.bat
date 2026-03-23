@@ -1,5 +1,5 @@
 @echo off
-echo Building Poultry Manager for Windows (Icon Issue Fixed)...
+echo Building FarmApp for Windows (Icon Issue Fixed)...
 echo =========================================================
 
 echo Building Windows installer without problematic icon...
@@ -13,7 +13,7 @@ if %errorlevel% equ 0 (
     echo Files created:
     dir dist\*.exe 2>nul
     echo.
-    echo Your Poultry Manager desktop app is ready for installation!
+    echo Your FarmApp desktop app is ready for installation!
     echo Note: The app will use the default Electron icon since the custom icon had format issues.
 ) else (
     echo.

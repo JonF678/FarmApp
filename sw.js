@@ -4,7 +4,7 @@ if (typeof self === 'undefined') {
     console.log('Service worker script loaded outside of worker context - skipping');
 } else {
     // Normal service worker code
-    const CACHE_NAME = 'poultry-manager-v2';
+    const CACHE_NAME = 'farmapp-v2';
     const urlsToCache = [
   '/',
   '/index.html',

@@ -1,6 +1,6 @@
 {
-  "appId": "com.poultrymanager.app",
-  "productName": "Poultry Manager",
+  "appId": "com.farmapp.app",
+  "productName": "FarmApp",
   "electronVersion": "37.2.5",
   "directories": {
     "output": "dist"

@@ -2,7 +2,7 @@
 echo Cleaning build environment...
 
 REM Kill any running processes
-taskkill /f /im "Poultry Manager.exe" 2>nul
+taskkill /f /im "FarmApp.exe" 2>nul
 taskkill /f /im electron.exe 2>nul
 taskkill /f /im node.exe 2>nul
 

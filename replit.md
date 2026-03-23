@@ -1,4 +1,4 @@
-# Poultry Management System
+# FarmApp
 
 ## Overview
 This Progressive Web Application (PWA) is designed for comprehensive poultry farm management. It offers offline-capable functionality for tracking production cycles, managing cages, logging vital production data, and analyzing performance metrics. The system is a client-side application utilizing local data storage, ensuring reliability even without internet connectivity. Its core capabilities include detailed tracking of egg and bird sales, expenses, and vaccination records, providing a holistic view of farm operations and profitability.

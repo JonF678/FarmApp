@@ -153,7 +153,7 @@ class DesktopAuth {
                         <div class="login-card">
                             <div class="login-header">
                                 <i class="fas fa-egg login-icon"></i>
-                                <h2>Poultry Management System</h2>
+                                <h2>FarmApp</h2>
                                 <p class="text-muted">Desktop Application - Enter password to continue</p>
                                 ${attempts > 0 ? `<p class="text-warning small">⚠️ ${remainingAttempts} attempt(s) remaining</p>` : ''}
                             </div>

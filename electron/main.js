@@ -159,7 +159,7 @@ class PoultryApp {
                 label: 'Help',
                 submenu: [
                     {
-                        label: 'About Poultry Manager',
+                        label: 'About FarmApp',
                         click: () => this.showAbout()
                     },
                     {
@@ -296,8 +296,8 @@ class PoultryApp {
     showAbout() {
         dialog.showMessageBox(this.mainWindow, {
             type: 'info',
-            title: 'About Poultry Manager',
-            message: 'Poultry Management System',
+            title: 'About FarmApp',
+            message: 'FarmApp',
             detail: 'Version 1.0.0\n\nA comprehensive desktop application for managing poultry farms with production tracking, analytics, and reporting capabilities.',
             buttons: ['OK']
         });
@@ -336,7 +336,7 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 // Add console logging
-console.log('Starting Poultry Manager Desktop App...');
+console.log('Starting FarmApp Desktop App...');
 console.log('Platform:', process.platform);
 console.log('Electron version:', process.versions.electron);
 

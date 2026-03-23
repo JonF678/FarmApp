@@ -1,5 +1,5 @@
 @echo off
-echo Building Poultry Manager for Windows (Clean Config - No Icons)...
+echo Building FarmApp for Windows (Clean Config - No Icons)...
 echo ==============================================================
 
 echo Using clean configuration without any icon processing...
@@ -13,7 +13,7 @@ if %errorlevel% equ 0 (
     echo Files created:
     dir dist\*.exe 2>nul
     echo.
-    echo Your Poultry Manager desktop app is ready for installation!
+    echo Your FarmApp desktop app is ready for installation!
     echo Note: Using default Electron icon to avoid build issues.
 ) else (
     echo.

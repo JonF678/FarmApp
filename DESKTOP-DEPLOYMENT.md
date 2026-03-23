@@ -47,9 +47,9 @@ build-windows.bat
 
 After building, check the `dist/` folder for:
 
-- **Windows**: `Poultry Manager Setup.exe` (installer)
-- **macOS**: `Poultry Manager.dmg` (disk image)
-- **Linux**: `Poultry Manager.AppImage` and `Poultry Manager.deb`
+- **Windows**: `FarmApp Setup.exe` (installer)
+- **macOS**: `FarmApp.dmg` (disk image)
+- **Linux**: `FarmApp.AppImage` and `FarmApp.deb`
 
 ## Desktop Features
 
@@ -102,4 +102,4 @@ Your desktop app includes these enhancements over the web version:
 - All web technologies (IndexedDB, localStorage) work normally
 - Check console for any JavaScript errors
 
-Your Poultry Management System is now ready for professional desktop deployment!
+Your FarmApp project is now ready for professional desktop deployment!

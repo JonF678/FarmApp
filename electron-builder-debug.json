@@ -1,6 +1,6 @@
 {
-  "appId": "com.poultrymanager.debug",
-  "productName": "Poultry Manager Debug",
+  "appId": "com.farmapp.debug",
+  "productName": "FarmApp Debug",
   "electronVersion": "37.2.5",
   "main": "electron/debug-main.js",
   "directories": {

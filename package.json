@@ -1,7 +1,7 @@
 {
-  "name": "poultry-manager-desktop",
+  "name": "farmapp",
   "version": "1.0.0",
-  "description": "Poultry Management System Desktop Application",
+  "description": "FarmApp desktop application",
   "main": "electron/main.js",
   "homepage": "./",
   "scripts": {
@@ -16,7 +16,7 @@
     "test": "electron test-minimal.js"
   },
   "keywords": ["poultry", "management", "desktop", "electron"],
-  "author": "Poultry Manager",
+  "author": "FarmApp",
   "license": "ISC",
   "dependencies": {
     "@types/memoizee": "^0.4.12",

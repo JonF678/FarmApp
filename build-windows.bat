@@ -4,7 +4,7 @@ echo.
 
 REM Kill any running Electron processes
 echo Stopping any running Electron processes...
-taskkill /f /im "Poultry Manager.exe" 2>nul
+taskkill /f /im "FarmApp.exe" 2>nul
 taskkill /f /im electron.exe 2>nul
 timeout /t 2 /nobreak >nul
 
@@ -31,8 +31,8 @@ if %ERRORLEVEL% EQU 0 (
     echo ✓ Unpacked app available in: dist\win-unpacked\
     echo.
     echo You can now:
-    echo 1. Install using: dist\Poultry Manager Setup 1.0.0.exe
-    echo 2. Or run directly from: dist\win-unpacked\Poultry Manager.exe
+    echo 1. Install using: dist\FarmApp Setup 1.0.0.exe
+    echo 2. Or run directly from: dist\win-unpacked\FarmApp.exe
 ) else (
     echo ✗ Build failed with error code %ERRORLEVEL%
     echo.

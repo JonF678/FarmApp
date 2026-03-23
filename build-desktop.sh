@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🖥️  Poultry Manager Desktop Build Script"
+echo "FarmApp Desktop Build Script"
 echo "========================================"
 
 # Check if npm is available

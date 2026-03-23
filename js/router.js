@@ -112,7 +112,7 @@ class Router {
         }
 
         // Update page title
-        document.title = `${routeConfig.title} - Poultry Manager`;
+        document.title = `${routeConfig.title} - FarmApp`;
 
         // Update active navigation links
         this.updateActiveNav(route);

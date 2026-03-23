@@ -17,7 +17,7 @@ if %errorlevel% equ 0 (
     echo.
     echo To test the app before installation:
     echo 1. Double-click "debug-electron.bat" for testing
-    echo 2. Install using "dist\Poultry Manager Setup 1.0.0.exe"
+    echo 2. Install using "dist\FarmApp Setup 1.0.0.exe"
     echo.
 ) else (
     echo.

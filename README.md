@@ -1,4 +1,4 @@
-# Poultry Management System - Complete User Guide
+# FarmApp - Complete User Guide
 
 ## Overview
 
@@ -479,4 +479,4 @@ Use the analytics to:
 
 ---
 
-This guide covers every aspect of the Poultry Management System. Keep it handy as you use the app, and refer back to the calculations section whenever you need to understand what the numbers mean for your farm's success.
+This guide covers every aspect of FarmApp. Keep it handy as you use the app, and refer back to the calculations section whenever you need to understand what the numbers mean for your farm's success.

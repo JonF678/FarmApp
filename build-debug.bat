@@ -1,5 +1,5 @@
 @echo off
-echo Building DEBUG version of Poultry Manager...
+echo Building DEBUG version of FarmApp...
 echo ===============================================
 
 echo This will create a simple debug version to test if Electron works

@@ -46,7 +46,7 @@ class PoultryApp {
             this.hideLoadingScreen();
 
             this.initialized = true;
-            console.log('Poultry Management App initialized successfully');
+            console.log('FarmApp initialized successfully');
 
         } catch (error) {
             console.error('Error initializing app:', error);
@@ -150,7 +150,7 @@ class PoultryApp {
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <i class="fas fa-egg me-2"></i>Poultry Manager
+                        <i class="fas fa-egg me-2"></i>FarmApp
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <span class="navbar-toggler-icon"></span>
@@ -288,7 +288,7 @@ class PoultryApp {
                     <div class="spinner-border text-primary mb-3" role="status">
                         <span class="visually-hidden">Loading...</span>
                     </div>
-                    <h5>Loading Poultry Manager</h5>
+                    <h5>Loading FarmApp</h5>
                     <p class="text-muted">Initializing database and components...</p>
                 </div>
             </div>
@@ -508,5 +508,5 @@ async function installApp() {
 }
 
 // Export for global access
-window.PoultryApp = PoultryApp;
+window.FarmApp = PoultryApp;
 window.app = app;

@@ -2,12 +2,12 @@ const fs = require('fs');
 const path = require('path');
 
 // Simple build script for desktop packaging
-console.log('Building Poultry Manager Desktop App...');
+console.log('Building FarmApp Desktop App...');
 
 // Create build configuration
 const buildConfig = {
-    productName: 'Poultry Manager',
-    appId: 'com.poultrymanager.app',
+    productName: 'FarmApp',
+    appId: 'com.farmapp.app',
     directories: {
         output: 'dist'
     },

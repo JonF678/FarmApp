@@ -1,4 +1,4 @@
-# Poultry Manager Desktop App
+# FarmApp Desktop App
 
 ## Overview
 This converts your existing Poultry Management PWA into a full desktop application using Electron, adding powerful desktop-specific features while maintaining all existing functionality.

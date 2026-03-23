@@ -1,5 +1,5 @@
 /**
- * CSV Import/Export Handler for Poultry Management System
+ * CSV Import/Export Handler for FarmApp
  * Handles bidirectional CSV data transfer with Excel compatibility
  */
 

@@ -1,7 +1,7 @@
 {
-  "name": "Poultry Management System",
-  "short_name": "PoultryManager",
-  "description": "Comprehensive offline-capable Poultry Management PWA with dynamic cage management, production logging, and analytics dashboard",
+  "name": "FarmApp",
+  "short_name": "FarmApp",
+  "description": "Comprehensive offline-capable farm management app with dynamic cage management, production logging, and analytics dashboard",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
